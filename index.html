@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/2b15cb6a76.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="logo.png" alt="logo" class="logo" />
+        <div class="nav-texts">
+          <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <a href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home-section">
+        <div>
+          <img src="opacity.png" alt="" class="opacity" />
+          <h2>New Summer</h2>
+          <h1>Bags Collection</h1>
+          <p>
+            Discover the latest trends and styles. Perfect for any occasion, our
+            bags combine fashion and functionality. Shop now and elevate your
+            summer look!
+          </p>
+          <button onclick="Shop()">
+            Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <img src="bag.png" alt="" class="bag" />
+      </section>
+
+      <section class="product-section">
+        <div class="btns-div">
+          <button class="tab-btn active" data-id="featured">Featured</button>
+          <button class="tab-btn" data-id="popular">Popular</button>
+          <button class="tab-btn" data-id="newly-added">Newly Added</button>
+        </div>
+        <div class="items-div">
+          <div class="items" id="featured">
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category1.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>NICOLE & DORIS Women's Fashion Handbag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category2.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Ladies Designer Top Handle Satchel Tote Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$150.35</h3>
+                  <p>$200.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category3.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Crisson Elegance Premium Leather Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$300.35</h3>
+                  <p>$450.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category4.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>
+                  Elegant Diamond Lattice Pattern Leather Top-Handle Shoulder
+                  Bag
+                </h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$90.35</h3>
+                  <p>$100.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category5.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>FOXER Women Leather Handbag Purse</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category6.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Women Leather Handbag Purse</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items not-active" id="popular">
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category7.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Ivory Grace Vegan Leather Tote Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$220.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category8.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Sapphire Edge Quilted Crossbody Purse</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$150.35</h3>
+                  <p>$180.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category9.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Rosewood Classic Leather Satchel Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$250.35</h3>
+                  <p>$450.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category10.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Midnight Velvet Evening Clutch Purse</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$80.35</h3>
+                  <p>$100.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category11.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Sunset Dreams Woven Hobo Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$230.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category12.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Cedar Grove Canvas Messenger Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$170.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items not-active" id="newly-added">
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category13.jpeg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Blossom Bloom Floral Backpack Purse</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.00</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category14.jpg" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Ocean Breeze Straw Beach Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$250.35</h3>
+                  <p>$200.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category15.webp" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Regal Charm Embellished Wristlet Cluch</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$400.35</h3>
+                  <p>$450.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category16.webp" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Golden Horizon Metallic Bucket Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$90.35</h3>
+                  <p>$100.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category17.webp" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Luxe Traveler Weekender Duffel Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <a
+                href="
+              #"
+              >
+                <img src="images/category18.webp" class="product-img" />
+              </a>
+
+              <div class="item-details">
+                <h2>Autumn Whisper Suede Crossbody Bag</h2>
+                <img src="star.png" />
+                <div class="other-details">
+                  <h3>$200.35</h3>
+                  <p>$250.00</p>
+                  <a href="#" aria-label="Add to Cart">
+                    <i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="new-arrival-section">
+        <h1>New Arrival</h1>
+        <div class="container swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag1.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Willow Leather Crossbody Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$100.35</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag2.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Ivy Women Quilted Shoulder Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$200.35</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag3.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Luna Vintage Satchel Purse</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$200.35</h3>
+
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag4.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Harper Women Designer Tote Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$300.00</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag5.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Aurora Women Luxury Clutch</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$80.25</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag6.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Sage Women Boho Fringe Hobo Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$320.15</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag7.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Elara Women Classic Messenger Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$200.00</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag8.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Zara Women Sleek Wristlet Purse</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$70.35</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag9.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Athena Women Chic Saddle Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$220.00</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag10.webp" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Daphne Women Modern Bucket Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$100.00</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag11.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Stella Women Bold Statement Purse</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$300.25</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <a
+                  href="
+                #"
+                >
+                  <img src="images/bag12.png" class="product-img" />
+                </a>
+                <div class="item-details">
+                  <h2>Clara Women Evening Bag</h2>
+                  <img src="star.png" width="50px" class="star" />
+                  <div class="other-details">
+                    <h3>$150.00</h3>
+                    <a href="#" aria-label="Add to Cart">
+                      <i class="fa-solid fa-cart-shopping"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-less-than"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-greater-than"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="first-container">
+        <div>
+          <i class="fa-regular fa-envelope"></i>
+          <h4>Sign up to Newsletter</h4>
+        </div>
+        <p>...and recieve $25 coupon for first shopping.</p>
+        <div class="input-container">
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+      <div class="second-container">
+        <div class="contacts">
+          <img src="logo.png" alt="logo" width="50px" />
+          <small>Contact</small>
+          <small
+            ><span>Address:</span> 562 Collin Road, Street
+            22,Lagos,Nigeria.</small
+          >
+          <small><span>Phone:</span> +234 804 358 9031</small>
+          <small><span>Phone:</span> 10:00am - 07:00pm, Mon - Sat</small>
+          <div class="icon">
+            <p>Follow Me</p>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="address">
+          <p>About Us</p>
+          <p>Delivery Information</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Contact us</p>
+          <p>Support Center</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
